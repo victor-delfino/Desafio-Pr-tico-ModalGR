@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatador de Nome para Crachá</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formatador de Nome para Crachá</h1>
+        <div class="form">
+            <label for="nomeCompleto">Nome Completo:</label>
+            <input type="text" id="nomeCompleto" placeholder="Digite o nome completo">
+        </div>
+        <button onclick="formatarNome()">Formatar Nome</button>
+        <button class="limpar" onclick="limparCampo()">Limpar</button>
+        <div class="resultado">
+            <h2>Nome Formatado:</h2>
+            <p id="nomeFormatado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Separador de Dados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Separador de Dados</h1>
+        <div class="form-group">
+            <label for="dados">Dados:</label>
+            <textarea id="dados" placeholder="Insira os dados separados por vírgula"></textarea>
+        </div>
+        <button onclick="separarDados()">Separar Dados</button>
+        <button class="limpar" onclick="limparCampo()">Limpar</button>
+        <div class="resultado">
+            <h2>Resultados:</h2>
+            <div id="resultados"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
